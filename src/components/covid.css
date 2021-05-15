@@ -1,0 +1,84 @@
+body {
+  font: 1.1em/1.3 "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  padding-top: 3em;
+  background-color: black;
+}
+
+.cards {
+  width: 1100px;
+  padding: .5em;
+  margin: 0 auto;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+article {
+  padding: .5em;
+  margin: 0 .5em;
+  background-color: #218ece;
+  border-radius: .5em;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  row-gap: 1em;
+}
+
+.content {
+  background-color: rgba(255,255,255,.9);
+  padding: .5em;
+  border-radius: .5em;
+  color: #222;
+}
+
+header, footer {
+  background-color: #00b7a8;
+  color: #fff;
+  padding: .5em;
+  border-radius: .5em;
+}
+main {
+  text-align: center;
+}
+  
+  h1,h2 {
+    margin-top: 12px;
+    font-weight: 300;
+    color: seashell;
+  }
+  .card_title{
+    margin-top: 40px;
+    color: red;
+    text-align: center;
+    font-size: 80px;
+    text-decoration: ;
+    
+  }
+  .card_text{
+    
+    font-weight: bold;
+    font-size: 25px;
+    color: red;
+    text-align: center;
+    
+  }
+
+  .blink_me {
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+  .cardss:hover {
+    transform: translateY(10px)
+  }
+
+  .title{
+    font-size: 50px;
+    letter-spacing: 10px;
+  }
+  
+  
