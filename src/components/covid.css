@@ -80,5 +80,12 @@ main {
     font-size: 50px;
     letter-spacing: 10px;
   }
+@media screen and (max-width: 600px) {
+    .cards {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
   
   
